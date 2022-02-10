@@ -135,10 +135,11 @@ nav.menu__body ul li a:hover:after {
   top: 100%;
   left: -15px;
   background-color: #fff;
-  padding: 15px;
+  padding: 20px 10px;
   width: 700px;
   border-radius: 4px;
   border: 1px solid #f5f5f5;
+  border-top: 4px solid rgb(243, 145, 54);
 }
 .sub-menu__list > li {
   margin: 0 0 10px 0;
@@ -194,7 +195,7 @@ body._lock {
   }
 
   .menu__list > li {
-    padding: 10px 0;
+    padding: 19px 0;
   }
   .sub-menu__list {
     transform: translate(0px, 10%);
@@ -412,3 +413,84 @@ body._lock {
 /*---------  Header CART   end------*/
 
 /* ------------------------------ Header END  ---------------------------- */
+
+/* ------------------------- MOCK DATA start------------------------ */
+
+.template,
+.template1,
+.template2,
+.template3,
+.template4,
+.template5,
+.template6 {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.template {
+  background-image: url("../static/img-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.template1 {
+  background-image: url("../static/img-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.template2 {
+  background-image: url("../static/img-3.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.template3 {
+  background-image: url("../static/img-4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.template4 {
+  background-image: url("../static/img-5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.template5 {
+  background-image: url("../static/img-6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.template6 {
+  background-image: url("../static/img-7.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+/* ------------------------- MOCK DATA finish------------------------ */

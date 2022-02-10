@@ -1,13 +1,8 @@
-import Header from "../components/Header";
-import Footer from "../components/footer";
-import { useState } from "react";
+import Header from "../../components/Header";
+
 import Head from "next/head";
 
 function Service() {
-  const [users, setUsers] = useState([
-    { id: 1, name: "denis" },
-    { id: 2, name: "kiril" },
-  ]);
   return (
     <div>
       <Head>
@@ -20,12 +15,7 @@ function Service() {
       </Head>
 
       <Header />
-
-      <ul>
-        {users.map((user) => (
-          <li>{user.name}</li>
-        ))}
-      </ul>
+      <h1 className="template2">ПУХОВИКИ</h1>
 
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
@@ -96,8 +86,6 @@ function Service() {
         molestiae. Cumque eligendi aliquid ipsam omnis. Qui, nesciunt natus nemo
         aliquam velit voluptatibus odio excepturi ipsum id?
       </p>
-
-      <Footer firstname="Denis"></Footer>
     </div>
   );
 }

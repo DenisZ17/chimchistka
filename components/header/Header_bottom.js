@@ -60,136 +60,202 @@ export default function Header_bottom() {
 
                   <ul className="sub-menu__list grid grid-cols-3 gap-3">
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Детская одежда
-                      </a>
+                      <Link href="/service/detskayaodezhda">
+                        <a className="sub-menu__link" href="">
+                          Детская одежда
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Пуховики
-                      </a>
+                      <Link href="/service/puhoviki">
+                        <a className="sub-menu__link" href="">
+                          Пуховики
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Детская одежда
-                      </a>
+                      <Link href="/service/specodezhda">
+                        <a className="sub-menu__link" href="">
+                          Спецодежда
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Детская одежда
-                      </a>
+                      <Link href="/service/myagkayamebel">
+                        <a className="sub-menu__link" href="">
+                          Мягкая мебель
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Детская одежда
-                      </a>
+                      <Link href="/service/detskayaodezhda">
+                        <a className="sub-menu__link" href="">
+                          Детская одежда
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Детская одежда
-                      </a>
+                      <Link href="/service/puhoviki">
+                        <a className="sub-menu__link" href="">
+                          Пуховики
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Детская одежда
-                      </a>
+                      <Link href="/service/specodezhda">
+                        <a className="sub-menu__link" href="">
+                          Спецодежда
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Детская одежда
-                      </a>
+                      <Link href="/service/myagkayamebel">
+                        <a className="sub-menu__link" href="">
+                          Мягкая мебель
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Детская одежда
-                      </a>
+                      <Link href="/service/detskayaodezhda">
+                        <a className="sub-menu__link" href="">
+                          Детская одежда
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Детская одежда
-                      </a>
+                      <Link href="/service/puhoviki">
+                        <a className="sub-menu__link" href="">
+                          Пуховики
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Меховые изделия
-                      </a>
+                      <Link href="/service/specodezhda">
+                        <a className="sub-menu__link" href="">
+                          Спецодежда
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Меховые изделия
-                      </a>
+                      <Link href="/service/myagkayamebel">
+                        <a className="sub-menu__link" href="">
+                          Мягкая мебель
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Меховые изделия
-                      </a>
+                      <Link href="/service/detskayaodezhda">
+                        <a className="sub-menu__link" href="">
+                          Детская одежда
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Меховые изделия
-                      </a>
+                      <Link href="/service/puhoviki">
+                        <a className="sub-menu__link" href="">
+                          Пуховики
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Меховые изделия
-                      </a>
+                      <Link href="/service/specodezhda">
+                        <a className="sub-menu__link" href="">
+                          Спецодежда
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Меховые изделия
-                      </a>
+                      <Link href="/service/myagkayamebel">
+                        <a className="sub-menu__link" href="">
+                          Мягкая мебель
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Меховые изделия
-                      </a>
+                      <Link href="/service/detskayaodezhda">
+                        <a className="sub-menu__link" href="">
+                          Детская одежда
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Меховые изделия
-                      </a>
+                      <Link href="/service/puhoviki">
+                        <a className="sub-menu__link" href="">
+                          Пуховики
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Пуховики
-                      </a>
+                      <Link href="/service/specodezhda">
+                        <a className="sub-menu__link" href="">
+                          Спецодежда
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Пальто и куртки
-                      </a>
+                      <Link href="/service/myagkayamebel">
+                        <a className="sub-menu__link" href="">
+                          Мягкая мебель
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Детская одежда
-                      </a>
+                      <Link href="/service/detskayaodezhda">
+                        <a className="sub-menu__link" href="">
+                          Детская одежда
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#" className="sub-menu__link" href="">
-                        Кожа и замша
-                      </a>
+                      <Link href="/service/puhoviki">
+                        <a className="sub-menu__link" href="">
+                          Пуховики
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/service/specodezhda">
+                        <a className="sub-menu__link" href="">
+                          Спецодежда
+                        </a>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/service/myagkayamebel">
+                        <a className="sub-menu__link" href="">
+                          Мягкая мебель
+                        </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <a href="#" className="menu__link" href="">
-                    Акции
-                  </a>
+                  <Link href="/promotions">
+                    <a className="menu__link" href="">
+                      Акции
+                    </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="menu__link" href="">
-                    Корпоративным клиентам
-                  </a>
+                  <Link href="/corporativnymclientam">
+                    <a className="menu__link" href="">
+                      Корпоративным клиентам
+                    </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="menu__link" href="">
-                    Оплата и доставка
-                  </a>
+                  <Link href="/oplatadostavka">
+                    <a className="menu__link" href="">
+                      Оплата и доставка
+                    </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="menu__link" href="">
-                    Контакты
-                  </a>
+                  <Link href="/contact">
+                    <a className="menu__link" href="">
+                      Контакты
+                    </a>
+                  </Link>
                 </li>
               </ul>
             </nav>

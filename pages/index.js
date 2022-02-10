@@ -1,7 +1,5 @@
 import Header from "../components/Header";
 import Head from "next/head";
-import Modal from "../components/Modal";
-import { useState } from "react";
 
 export default function Home() {
   return (
@@ -15,6 +13,7 @@ export default function Home() {
         />
       </Head>
       <Header />
+      <h1 className="template">главная</h1>
       <h2>Главная страница</h2>
       <div>
         <div>
