@@ -1,11 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
-import {
-  faPhone,
-  faAngleDown,
-  faAngleUp,
-} from "@fortawesome/free-solid-svg-icons";
+import { FaAngleUp, FaPhone, FaAngleDown } from "react-icons/fa";
 
 function Phone_dropdown() {
   const [phonen, setPhone] = useState(false);
@@ -13,12 +8,7 @@ function Phone_dropdown() {
   return (
     <div className="header__phone-flex">
       <span style={{ marginRight: "10px" }}>
-        <FontAwesomeIcon
-          icon={faPhone}
-          rotation={90}
-          color={"#1176bc"}
-          size={"1x"}
-        />
+        <FaPhone color="#1176bc" />
       </span>
       <button
         onClick={() => setPhone(!phonen)}
@@ -27,11 +17,7 @@ function Phone_dropdown() {
       >
         +38 (066) 681-24-22
         <span style={{ marginLeft: "10px" }}>
-          <FontAwesomeIcon
-            icon={phonen ? faAngleUp : faAngleDown}
-            color={"#000"}
-            size={"1x"}
-          />
+          {phonen ? <FaAngleUp color="#000" /> : <FaAngleDown color="#000" />}
         </span>
       </button>
 

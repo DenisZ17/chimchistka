@@ -1,10 +1,8 @@
 import Link from "next/link";
 import Script from "next/script";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
-
 import { useState, useEffect } from "react";
 import Header_cart from "./Header_cart";
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 export default function Header_bottom() {
   const [click, setClick] = useState(false);
@@ -51,11 +49,11 @@ export default function Header_bottom() {
                   </Link>
 
                   <span className="menu__arrow">
-                    <FontAwesomeIcon
-                      icon={arrowClick ? faChevronUp : faChevronDown}
-                      color={"#fff"}
-                      size={"1x"}
-                    />
+                    {arrowClick ? (
+                      <FaChevronUp color="#fff" />
+                    ) : (
+                      <FaChevronDown color="#fff" />
+                    )}
                   </span>
 
                   <ul className="sub-menu__list grid grid-cols-3 gap-3">

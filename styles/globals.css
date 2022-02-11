@@ -196,6 +196,7 @@ body._lock {
 
   .menu__list > li {
     padding: 19px 0;
+    display: flex;
   }
   .sub-menu__list {
     transform: translate(0px, 10%);
