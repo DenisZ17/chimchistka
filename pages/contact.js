@@ -1,4 +1,5 @@
 import Head from "next/head";
+import ContactForm from "../components/forms/ContactForm";
 import Header from "../components/Header";
 
 function Contact() {
@@ -14,6 +15,9 @@ function Contact() {
       </Head>
       <Header />
       <h1 className="template4">КОНТАКТЫ</h1>
+      <div className="m-10 p-3">
+        <ContactForm />
+      </div>
     </>
   );
 }

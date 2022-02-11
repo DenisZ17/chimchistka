@@ -40,28 +40,18 @@ function Modal_callback() {
             <div className="p-6">
               <form>
                 <div class="mb-6">
-                  <label
-                    for="nameUser"
-                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                  >
-                    Имя
-                  </label>
                   <input
                     type="text"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Ваше имя"
                   />
                 </div>
                 <div class="mb-6">
-                  <label
-                    for="phoneUser"
-                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                  >
-                    Номер телефона
-                  </label>
                   <input
                     type="phone"
                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     required
+                    placeholder="Номер телефона"
                   />
                 </div>
 
@@ -72,17 +62,12 @@ function Modal_callback() {
                   Перезвонить
                 </button>
               </form>
-              <div
-                class="p-4 mt-6 text-sm text-blue-700 bg-blue-100 rounded-lg dark:bg-blue-200 dark:text-blue-800"
-                role="alert"
-              >
+              <div class="p-4 mt-10 text-sm text-blue-700 bg-blue-100 rounded-lg dark:bg-blue-200 dark:text-blue-800">
                 <span class="font-medium">
                   Мы перезвоним в течении 5 минут!
                 </span>
               </div>
             </div>
-
-            <div className="flex items-center p-6 rounded-b border-t border-gray-200 dark:border-gray-600"></div>
           </div>
         </div>
       </Modal>
