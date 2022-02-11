@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import Myheader from "../components/Myheader";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <Header />
+      <Myheader />
       <h1 className="template">главная</h1>
       <h2>Главная страница</h2>
       <div>

@@ -1,5 +1,5 @@
-import Header from "../components/Header";
 import Head from "next/head";
+import Myheader from "../components/Myheader";
 
 function Promotions() {
   return (
@@ -12,7 +12,7 @@ function Promotions() {
           rel="stylesheet"
         />
       </Head>
-      <Header />
+      <Myheader />
       <h1 className="template5">АКЦИИ</h1>;
     </>
   );

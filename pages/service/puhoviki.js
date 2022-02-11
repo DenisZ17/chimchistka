@@ -1,4 +1,4 @@
-import Header from "../../components/Header";
+import Myheader from "../../components/Myheader";
 import Head from "next/head";
 
 function Puhoviki() {
@@ -12,7 +12,7 @@ function Puhoviki() {
           rel="stylesheet"
         />
       </Head>
-      <Header />
+      <Myheader />
       <h1 className="template1">ПУХОВИКИ</h1>
     </>
   );

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import ContactForm from "../components/forms/ContactForm";
-import Header from "../components/Header";
+import Myheader from "../components/Myheader";
 
 function Contact() {
   return (
@@ -13,7 +13,7 @@ function Contact() {
           rel="stylesheet"
         />
       </Head>
-      <Header />
+      <Myheader />
       <h1 className="template4">КОНТАКТЫ</h1>
       <div className="m-10 p-3">
         <ContactForm />

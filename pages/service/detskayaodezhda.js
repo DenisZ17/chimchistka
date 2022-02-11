@@ -1,5 +1,5 @@
-import Header from "../../components/Header";
 import Head from "next/head";
+import Myheader from "../../components/Myheader";
 
 function DetskayaOdezhda() {
   return (
@@ -12,7 +12,7 @@ function DetskayaOdezhda() {
           rel="stylesheet"
         />
       </Head>
-      <Header />
+      <Myheader />
       <h1 className="template3">ДЕТСКАЯ ОДЕЖДА</h1>;
     </>
   );

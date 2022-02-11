@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import Myheader from "../components/Myheader";
 import Head from "next/head";
 
 function СorporativnymClientam() {
@@ -12,7 +12,7 @@ function СorporativnymClientam() {
           rel="stylesheet"
         />
       </Head>
-      <Header />
+      <Myheader />
       <h1 className="template6">КОРПОРАТИВНЫМ КЛИЕНТАМ</h1>;
     </>
   );

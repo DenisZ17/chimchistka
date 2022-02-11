@@ -1,6 +1,5 @@
-import Header from "../../components/Header";
-
 import Head from "next/head";
+import Myheader from "../../components/Myheader";
 
 function Service() {
   return (
@@ -14,7 +13,7 @@ function Service() {
         />
       </Head>
 
-      <Header />
+      <Myheader />
       <h1 className="template2">ПУХОВИКИ</h1>
 
       <p>
