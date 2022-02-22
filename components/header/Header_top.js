@@ -12,6 +12,8 @@ export default function Header_top() {
   const handleLogo = () => {
     if (window.matchMedia("(max-width: 500px)").matches) {
       setLogo(true);
+    } else {
+      setLogo(false);
     }
   };
   useEffect(() => {

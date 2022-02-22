@@ -10,7 +10,7 @@ export default function Header_bottom() {
   const [scroll, setScroll] = useState(false);
 
   const handleScroll = () => {
-    var h_header = 117;
+    var h_header = 112;
     const scrollY = window.scrollY;
 
     if (scrollY >= h_header) {
