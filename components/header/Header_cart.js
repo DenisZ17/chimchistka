@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function Header_cart() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(2);
   return (
     <div className="header__cart">
       <a href="#" className="header__cart-link" href="">

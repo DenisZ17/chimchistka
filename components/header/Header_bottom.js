@@ -2,7 +2,9 @@ import Link from "next/link";
 import Script from "next/script";
 import { useState, useEffect } from "react";
 import Header_cart from "./Header_cart";
+import { menuSubList } from "../../static/data/menuSubList";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Header_bottom() {
   const [click, setClick] = useState(false);
@@ -10,7 +12,7 @@ export default function Header_bottom() {
   const [scroll, setScroll] = useState(false);
 
   const handleScroll = () => {
-    var h_header = 112;
+    var h_header = 117;
     const scrollY = window.scrollY;
 
     if (scrollY >= h_header) {
@@ -45,7 +47,7 @@ export default function Header_bottom() {
                   className={arrowClick ? "_active" : " "}
                 >
                   <Link href="/service">
-                    <a className="menu__link">Услуги</a>
+                    <a className="menu__link addpadding">Услуги</a>
                   </Link>
 
                   <span className="menu__arrow">
@@ -57,174 +59,15 @@ export default function Header_bottom() {
                   </span>
 
                   <ul className="sub-menu__list grid grid-cols-3 gap-3">
-                    <li>
-                      <Link href="/service/detskayaodezhda">
-                        <a className="sub-menu__link" href="">
-                          Детская одежда
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/puhoviki">
-                        <a className="sub-menu__link" href="">
-                          Пуховики
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/specodezhda">
-                        <a className="sub-menu__link" href="">
-                          Спецодежда
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/myagkayamebel">
-                        <a className="sub-menu__link" href="">
-                          Мягкая мебель
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/detskayaodezhda">
-                        <a className="sub-menu__link" href="">
-                          Детская одежда
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/puhoviki">
-                        <a className="sub-menu__link" href="">
-                          Пуховики
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/specodezhda">
-                        <a className="sub-menu__link" href="">
-                          Спецодежда
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/myagkayamebel">
-                        <a className="sub-menu__link" href="">
-                          Мягкая мебель
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/detskayaodezhda">
-                        <a className="sub-menu__link" href="">
-                          Детская одежда
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/puhoviki">
-                        <a className="sub-menu__link" href="">
-                          Пуховики
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/specodezhda">
-                        <a className="sub-menu__link" href="">
-                          Спецодежда
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/myagkayamebel">
-                        <a className="sub-menu__link" href="">
-                          Мягкая мебель
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/detskayaodezhda">
-                        <a className="sub-menu__link" href="">
-                          Детская одежда
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/puhoviki">
-                        <a className="sub-menu__link" href="">
-                          Пуховики
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/specodezhda">
-                        <a className="sub-menu__link" href="">
-                          Спецодежда
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/myagkayamebel">
-                        <a className="sub-menu__link" href="">
-                          Мягкая мебель
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/detskayaodezhda">
-                        <a className="sub-menu__link" href="">
-                          Детская одежда
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/puhoviki">
-                        <a className="sub-menu__link" href="">
-                          Пуховики
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/specodezhda">
-                        <a className="sub-menu__link" href="">
-                          Спецодежда
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/myagkayamebel">
-                        <a className="sub-menu__link" href="">
-                          Мягкая мебель
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/detskayaodezhda">
-                        <a className="sub-menu__link" href="">
-                          Детская одежда
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/puhoviki">
-                        <a className="sub-menu__link" href="">
-                          Пуховики
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/specodezhda">
-                        <a className="sub-menu__link" href="">
-                          Спецодежда
-                        </a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service/myagkayamebel">
-                        <a className="sub-menu__link" href="">
-                          Мягкая мебель
-                        </a>
-                      </Link>
-                    </li>
+                    {menuSubList.map((item, index) => (
+                      <li key={index}>
+                        <Link href={item.link}>
+                          <a className="sub-menu__link" href="">
+                            {item.title}
+                          </a>
+                        </Link>
+                      </li>
+                    ))}
                   </ul>
                 </li>
                 <li>

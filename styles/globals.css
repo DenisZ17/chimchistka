@@ -109,7 +109,6 @@ a {
 }
 .menu__list > li {
   position: relative;
-  margin: 0 0 0 20px;
 }
 
 /* stroke */
@@ -162,7 +161,7 @@ nav.menu__body ul li a:hover:after {
   font-weight: 500;
 }
 .sub-menu__link:hover {
-  background: #f5f5f5 !important;
+  background: #f1f1f1 !important;
 
   font-weight: 500;
 }
@@ -205,9 +204,10 @@ body._lock {
   }
 
   .menu__list > li {
-    padding: 19px 0;
+    padding: 19px 10px;
     display: flex;
   }
+
   .sub-menu__list {
     transform: translate(0px, 10%);
     opacity: 0;
@@ -336,6 +336,14 @@ body._lock {
     color: #000;
   }
 }
+@media (max-width: 480px) {
+  .logo {
+    display: none;
+  }
+  .header__phones {
+    margin-left: 24%;
+  }
+}
 @media (max-width: 380px) {
   .header__top {
     padding: 0 6px;
@@ -344,6 +352,7 @@ body._lock {
 /*---------Modal WINDOW start------*/
 .main__modal {
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
   display: flex;
@@ -800,7 +809,7 @@ body._lock {
 .home__service {
   text-align: center;
   position: relative;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
   margin-top: -20px;
   font-family: "Roboto", "sans-serif";
   background: rgb(243, 243, 243);
@@ -826,7 +835,7 @@ body._lock {
   padding: 13px 40px;
   border-radius: 24px;
 
-  background-color: #2f80ed;
+  background-color: var(--main-color);
   box-shadow: 0 8px 28px 0 hsl(0deg 0% 91% / 50%);
 
   letter-spacing: 2px;
@@ -932,3 +941,93 @@ body._lock {
   }
 }
 /* ------------------------- HOME SERVICE finish------------------------ */
+/* ------------------------- HOME PHONE start------------------------ */
+.home__phone {
+  background-image: url("../static/slider-textile-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  padding: 31px 0 52px;
+}
+.home__phone::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(17, 117, 188, 0.93);
+  z-index: 1;
+}
+.home__phone-container {
+  position: relative;
+  max-width: 855px;
+  margin: 0 auto;
+  padding: 0 15px;
+  z-index: 3;
+}
+.home__phone-h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 30px;
+
+  letter-spacing: 1px;
+  padding: 20px;
+}
+
+.home__phone-imgdivider {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.home__phone-descr {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.home__phone-form {
+  max-width: 600px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+.home__phone-form input {
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  margin: 10px;
+  padding: 10px 20px;
+}
+.home__phone-form button {
+  background-color: #fcf100;
+  padding: 10px 40px;
+  border-radius: 4px;
+  color: var(--main-color);
+  font-family: "Roboto", "sans-serif";
+  font-weight: 500;
+  margin: 10px;
+  transition: all 0.2s ease;
+}
+.home__phone-form button:hover {
+  background-color: #f5ee73;
+  transition: all 0.2s ease;
+}
+@media (max-width: 560px) {
+  .home__phone-h2 {
+    font-size: 25px;
+  }
+
+  .home__phone-descr {
+    font-size: 15px;
+  }
+  .home__phone-form {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .home__phone-form button {
+  }
+}
+/* ------------------------- HOME PHONE finish------------------------ */

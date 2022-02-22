@@ -8,24 +8,13 @@ import Logomin from "../../static/logo-mn.png";
 import { FaClock, FaEnvelope, FaTruck } from "react-icons/fa";
 
 export default function Header_top() {
-  const [logo, setLogo] = useState(false);
-  const handleLogo = () => {
-    if (window.matchMedia("(max-width: 500px)").matches) {
-      setLogo(true);
-    } else {
-      setLogo(false);
-    }
-  };
-  useEffect(() => {
-    window.addEventListener("resize", handleLogo);
-  });
   return (
     <>
       <div className="header__top">
         <div className="header__container-top">
           <Link href="/">
             <a className="logo">
-              <Image src={logo ? Logomin : Logo} />
+              <Image src={Logo} />
             </a>
           </Link>
 
