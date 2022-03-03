@@ -3,6 +3,14 @@ import Head from "next/head";
 import HomeSlider from "../components/home/HomeSlider";
 import HomeService from "../components/home/HomeService";
 import HomePhoneForm from "../components/home/HomePhoneForm";
+import HomeText from "../components/home/HomeText";
+import HomeStage from "../components/home/HomeStage";
+import HomePrice from "../components/home/HomePrice";
+
+import HomeReviews from "../components/home/HomeReviews";
+import HomeProjects from "../components/home/HomeProjects";
+import Myfooter from "../components/Myfooter";
+import HomeEmailForm from "../components/home/HomeEmailForm";
 
 export default function Home() {
   return (
@@ -30,6 +38,13 @@ export default function Home() {
       <HomeSlider />
       <HomeService />
       <HomePhoneForm />
+      <HomeText />
+      <HomeStage />
+      <HomePrice />
+      <HomeEmailForm />
+      <HomeProjects />
+      <HomeReviews />
+      <Myfooter />
     </div>
   );
 }

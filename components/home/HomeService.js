@@ -4,6 +4,7 @@ import React from "react";
 import { BsChevronCompactDown } from "react-icons/bs";
 import { homeServiceCat } from "../../static/data/homeServiceCat";
 import { homeServiceSubCat } from "../../static/data/homeServiceSubCat";
+import { v4 as uuidv4, v4 } from "uuid";
 
 function HomeService() {
   return (
@@ -15,14 +16,18 @@ function HomeService() {
         </div>
         <div className="home__service-grid">
           {homeServiceCat.map((item, index) => (
-            <Link href={item.link}>
+            <Link href={item.link} key={v4()}>
               <a key={index} className="home__service-item">
-                <div className="home__service-itemimg">
-                  <Image src={item.img} width={80} height={80} />
+                <div className="home__service-itemimg" key={v4()}>
+                  <Image key={v4()} src={item.img} width={80} height={80} />
                 </div>
-                <div className="home__service-itemcontent">
-                  <div className="home__service-itemtitle">{item.title}</div>
-                  <div className="home__service-itemprice">{item.price}</div>
+                <div key={v4()} className="home__service-itemcontent">
+                  <div className="home__service-itemtitle" key={v4()}>
+                    {item.title}
+                  </div>
+                  <div className="home__service-itemprice" key={v4()}>
+                    {item.price}
+                  </div>
                 </div>
               </a>
             </Link>
@@ -33,14 +38,18 @@ function HomeService() {
         </div>
         <div className="home__service-grid">
           {homeServiceSubCat.map((item, index) => (
-            <Link href={item.link}>
+            <Link key={v4()} href={item.link}>
               <a key={index} className="home__service-item">
-                <div className="home__service-itemimg">
-                  <Image src={item.img} width={90} height={90} />
+                <div key={v4()} className="home__service-itemimg">
+                  <Image key={v4()} src={item.img} width={90} height={90} />
                 </div>
                 <div className="home__service-itemcontent">
-                  <div className="home__service-itemtitle">{item.title}</div>
-                  <div className="home__service-itemprice">{item.price}</div>
+                  <div className="home__service-itemtitle" key={v4()}>
+                    {item.title}
+                  </div>
+                  <div className="home__service-itemprice" key={v4()}>
+                    {item.price}
+                  </div>
                 </div>
               </a>
             </Link>
