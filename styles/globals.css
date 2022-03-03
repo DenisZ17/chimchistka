@@ -1330,6 +1330,11 @@ body._lock {
 .homeproj__slick-next {
   right: -20px;
 }
+@media (max-width: 1290px) {
+  .home__projects-container {
+    margin: 0 5px;
+  }
+}
 @media (max-width: 1050px) {
   .home__projects-item1,
   .home__projects-item2,
@@ -1455,6 +1460,11 @@ body._lock {
   padding: 11px 30px;
   margin: 10px 0;
 }
+@media (max-width: 1290px) {
+  .home__reviews-container {
+    margin: 0 5px;
+  }
+}
 @media (max-width: 650px) {
   .home__reviews-slider {
     padding: 0px 15px;
@@ -1468,6 +1478,16 @@ body._lock {
     min-height: 90px;
     padding: 15px;
     margin: 10px;
+  }
+  .modal__close-btn {
+    top: 20px;
+    right: 20px;
+    height: 25px;
+    width: 25px;
+  }
+  .home__reviews-form {
+    padding: 20px;
+    margin: 40px 13px 0 13px;
   }
 }
 /* ------------------------- HOME REVIEWS finish------------------------ */
