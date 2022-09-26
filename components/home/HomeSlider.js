@@ -4,7 +4,7 @@ import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi";
 import { MdOutlineLocationOn } from "react-icons/md";
 
 import Slider from "react-slick";
-
+import withTranslation from "next-translate/withTranslation";
 function ArrowPrev(props) {
   const { onClick } = props;
   return (
@@ -22,8 +22,10 @@ function ArrowNext(props) {
   );
 }
 
-export default class HomeSlider extends Component {
+class HomeSlider extends Component {
   render() {
+    const { t } = this.props.i18n;
+
     const settings = {
       infinite: true,
       speed: 500,
@@ -41,55 +43,50 @@ export default class HomeSlider extends Component {
                 <MdOutlineLocationOn color="#1176bc" size="25px" />
                 &nbsp;
                 <Link href="/contact">
-                  <a>Пункты приема </a>
+                  <a>{t("home:home-sliderPunkt")}</a>
                 </Link>
-                &nbsp; в Харькове
+                <span className="w-2"></span>
+                {t("home:home-sliderCharkov")}
               </div>
               <h1 className="home__slider-title">
-                Химчистка вещей с доставкой на дом
+                {t("home:home-sliderTitle")}
               </h1>
-              <p className="home__slider-descr">
-                Забираем, чистим и доставляем обратно! 100% дезинфекция,
-                бесконтактная передача заказа и безналичная оплата.
-              </p>
+              <p className="home__slider-descr">{t("home:home-sliderDescr")}</p>
             </div>
             <div className="home__slider-item">
               <div className="home__slider-location">
                 <MdOutlineLocationOn color="#1176bc" size="25px" />
                 &nbsp;
                 <Link href="/contact">
-                  <a>Пункты приема </a>
+                  <a>{t("home:home-sliderPunkt")}</a>
                 </Link>
-                &nbsp; в Харькове
+                {t("home:home-sliderCharkov")}
               </div>
               <h1 className="home__slider-title">
-                Химчистка вещей с доставкой на дом
+                {t("home:home-sliderTitle")}
               </h1>
-              <p className="home__slider-descr">
-                Забираем, чистим и доставляем обратно! 100% дезинфекция,
-                бесконтактная передача заказа и безналичная оплата.
-              </p>
+              <p className="home__slider-descr">{t("home:home-sliderDescr")}</p>
             </div>
           </Slider>
-          <p className="home__slider-exdescr">
-            Если Вы хотите забрать или сдать вещи - звоните мы приедем!
-          </p>
+          <p className="home__slider-exdescr">{t("home:home-sliderExdescr")}</p>
           <div className="home__slider-wrapbtnflex">
             <div className="home__slider-wrapbtndeliv">
               <a href="#" className="home__slider-delivbtn">
-                Заказать доставку
+                {t("home:home-sliderBtn")}
               </a>
 
               <p className="home__slider-btndescr">
-                Бесплатно на заказы от 3000 руб
+                {t("home:home-sliderBtnDescr")}
               </p>
             </div>
             <div className="home__slider-wrapbtnorder">
               <a href="#" className="home__slider-orderbtn ">
-                Рассчитать заказ
+                {t("home:home-sliderBtnOrder")}
               </a>
 
-              <p className="home__slider-btndescr">Это займет 5-10 минут</p>
+              <p className="home__slider-btndescr">
+                {t("home:home-sliderBtnOrdDescr")}
+              </p>
             </div>
           </div>
         </div>
@@ -97,3 +94,4 @@ export default class HomeSlider extends Component {
     );
   }
 }
+export default withTranslation(HomeSlider);

@@ -1,0 +1,124 @@
+{
+  "language-name-ru": "ру",
+  "header-top-delivery": "Доставка по Харькову и области",
+  "header-top-time": "ПН - СБ с 8:00 до 18:00 ч",
+  "menu-home": "Главная",
+  "menu-service": "Услуги",
+  "menu-promoution": "Акции",
+  "menu-corporation": "корпоративным клиентам",
+  "menu-payment": "оплата и доставка",
+  "menu-contact": "контакты",
+  "menu-sublist": [
+    {
+      "link": "/service/tekstil-i-trikotazh",
+      "title": "Текстиль и трикотаж"
+    },
+    {
+      "link": "/service/mexovye-izdeliya",
+      "title": "Меховые изделия"
+    },
+    {
+      "link": "/service/kozha-i-zamsha",
+      "title": "Кожа и замша"
+    },
+
+    {
+      "link": "/service/domashnij-tekstil",
+      "title": "Домашний текстиль"
+    },
+    {
+      "link": "/service/kostyumnaya-gruppa",
+      "title": "Костюмная группа"
+    },
+
+    {
+      "link": "/service/rubashki-i-bluzy",
+      "title": "Рубашки и блузы"
+    },
+    {
+      "link": "/service/dzhinsy-bryuki-i-shorty",
+      "title": "Джинсы, брюки, шорты"
+    },
+    {
+      "link": "/service/futbolki-majki-i-topy",
+      "title": "Футболки, майки, топы"
+    },
+    {
+      "link": "/service/platya-i-yubki",
+      "title": "Платья и юбки"
+    },
+    {
+      "link": "/service/svitera-i-kofty",
+      "title": "Свитера и кофты"
+    },
+    {
+      "link": "/service/svadebnye-platya",
+      "title": "Свадебные платья"
+    },
+    {
+      "link": "/service/veshhi-ot-kutyur",
+      "title": "Вещи от «кутюр»"
+    },
+    {
+      "link": "/service/puhoviki",
+      "title": "Пуховики"
+    },
+    {
+      "link": "/service/palto-i-kurtki",
+      "title": "Пальто и куртки"
+    },
+    {
+      "link": "/service/dublenki",
+      "title": "Дубленки"
+    },
+    {
+      "link": "/service/obuv-i-sumki",
+      "title": "Обувь и сумки"
+    },
+    {
+      "link": "/service/golovnye-ubory-i-aksessuary",
+      "title": "Шапки и аксессуары"
+    },
+    {
+      "link": "/service/detskaya-odezhda",
+      "title": "Детская одежда"
+    },
+    {
+      "link": "/service/domashnyaya-odezhda",
+      "title": "Домашняя одежда"
+    },
+    {
+      "link": "/service/sportivnaya-odezhda",
+      "title": "Спортивная одежда"
+    },
+    {
+      "link": "/service/specodezhda",
+      "title": "Спецодежда"
+    },
+    {
+      "link": "/service/chistka-kovrov",
+      "title": "Чистка ковров"
+    },
+    {
+      "link": "/service/dopolnitelnye-uslugi",
+      "title": "Дополнительные услуги"
+    }
+  ],
+  "footer-name": "Прачечная \"Аквалайд\"",
+  "footer-menu": "Меню",
+  "footer-contact": "Контакты",
+  "footer-time": "ПН - СБ с 8:00 до 18:00 ч",
+  "footer-addres": "г.Харьков",
+
+  "footer-info1": "Освобождаем от лишних забот.",
+  "footer-info2": "Забудьте про стирку, чистку, сушку и глажку!",
+  "footer-info3": "Доставка по Харькову и области.",
+  "footer-menuArr": [
+    { "title": "Главная", "link": "/" },
+    { "title": "Услуги", "link": "/service" },
+    { "title": "Акции", "link": "/promotions" },
+    { "title": "Корпоративным клиентам", "link": "/corporativnymclientam" },
+    { "title": "Оплата и доставка", "link": "/oplatadostavka" },
+    { "title": "Контакты", "link": "/contact" }
+  ]
+}

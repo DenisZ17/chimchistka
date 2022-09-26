@@ -1,7 +1,9 @@
 import { TextField } from "@material-ui/core";
+import useTranslation from "next-translate/useTranslation";
 import React from "react";
 
 function ReviewsForm() {
+  let { t } = useTranslation();
   return (
     <form className="home__reviews-form">
       <TextField
@@ -29,7 +31,7 @@ function ReviewsForm() {
       />
 
       <button className="home__reviews-formbtn" type="submit">
-        Отправить отзыв
+        {t("home:home-sendReview")}
       </button>
     </form>
   );

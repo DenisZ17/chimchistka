@@ -1,13 +1,13 @@
 import Link from "next/link";
-import { useState, useEffect } from "react";
 import Image from "next/image";
 import Logo from "../../static/logo.png";
-import Modal_callback from "./Modal_callback";
 import Phone_dropdown from "./Phone_dropdown";
-import Logomin from "../../static/logo-mn.png";
 import { FaClock, FaEnvelope, FaTruck } from "react-icons/fa";
+import setLanguage from "next-translate/setLanguage";
+import useTranslation from "next-translate/useTranslation";
 
 export default function Header_top() {
+  let { t } = useTranslation();
   return (
     <>
       <div className="header__top">
@@ -26,7 +26,7 @@ export default function Header_top() {
             <div className="header__delivery">
               <FaTruck color="#1176bc" />
 
-              <p>Доставка по Харькову и области</p>
+              <p>{t("common:header-top-delivery")}</p>
             </div>
           </div>
           <div className="header__phones">
@@ -34,11 +34,38 @@ export default function Header_top() {
             <div className="header__shedule-flex">
               <FaClock color="#1176bc" />
 
-              <p>ПН - СБ с 8:00 до 18:00 ч</p>
+              <p>{t("common:header-top-time")}</p>
             </div>
           </div>
-          <div className="header__modal-callback">
-            <Modal_callback />
+          <div className="header__multi-lingual">
+            <button onClick={async () => await setLanguage("uk")}>
+              <Image
+                src="/../static/flag-uk.png"
+                width={20}
+                height={20}
+                alt="flag uk"
+              />
+            </button>
+            <button
+              className="mx-3"
+              onClick={async () => await setLanguage("en")}
+            >
+              <Image
+                src="/../static/flag-en.png"
+                width={20}
+                height={20}
+                alt="flag en"
+              />
+            </button>
+
+            <button onClick={async () => await setLanguage("ru")}>
+              <Image
+                src="/../static/flag-ru.png"
+                width={20}
+                height={20}
+                alt="flag ru"
+              />
+            </button>
           </div>
         </div>
       </div>

@@ -1,0 +1,128 @@
+{
+  "language-name-uk": "укр",
+  "header-top-delivery": "Доставка по Харкову та області",
+  "header-top-time": "ПН - СБ з 8:00 до 18:00 год",
+  "menu-home": "Головна",
+  "menu-service": "послуги",
+  "menu-promoution": "Акції",
+  "menu-corporation": "Корпоративним кліентам",
+  "menu-payment": "оплата i доставка",
+  "menu-contact": "контакти",
+
+  "menu-sublist": [
+    {
+      "link": "/service/tekstil-i-trikotazh",
+      "title": "Текстиль та трикотаж"
+    },
+    {
+      "link": "/service/mexovye-izdeliya",
+      "title": "Хутряні вироби"
+    },
+    {
+      "link": "/service/kozha-i-zamsha",
+      "title": "Шкіра та замша"
+    },
+
+    {
+      "link": "/service/domashnij-tekstil",
+      "title": "Домашній текстиль"
+    },
+    {
+      "link": "/service/kostyumnaya-gruppa",
+      "title": "Костюмна група"
+    },
+
+    {
+      "link": "/service/rubashki-i-bluzy",
+      "title": "Сорочки та блузи"
+    },
+    {
+      "link": "/service/dzhinsy-bryuki-i-shorty",
+      "title": "Джинси, штани, шорти"
+    },
+    {
+      "link": "/service/futbolki-majki-i-topy",
+      "title": "Футболки, майки, топи"
+    },
+    {
+      "link": "/service/platya-i-yubki",
+      "title": "Сукні та спідниці"
+    },
+    {
+      "link": "/service/svitera-i-kofty",
+      "title": "Светри та кофти"
+    },
+    {
+      "link": "/service/svadebnye-platya",
+      "title": "Весільні сукні"
+    },
+    {
+      "link": "/service/veshhi-ot-kutyur",
+      "title": "Речі від «кутюр»"
+    },
+    {
+      "link": "/service/puhoviki",
+      "title": "Пуховики"
+    },
+    {
+      "link": "/service/palto-i-kurtki",
+      "title": "Пальто та куртки"
+    },
+    {
+      "link": "/service/dublenki",
+      "title": "Дублянки"
+    },
+    {
+      "link": "/service/obuv-i-sumki",
+      "title": "Взуття та сумки"
+    },
+    {
+      "link": "/service/golovnye-ubory-i-aksessuary",
+      "title": "Шапки та аксесуари"
+    },
+    {
+      "link": "/service/detskaya-odezhda",
+      "title": "Дитячий одяг"
+    },
+    {
+      "link": "/service/domashnyaya-odezhda",
+      "title": "Домашній одяг"
+    },
+    {
+      "link": "/service/sportivnaya-odezhda",
+      "title": "Спортивний одяг"
+    },
+    {
+      "link": "/service/specodezhda",
+      "title": "Спецодяг"
+    },
+    {
+      "link": "/service/chistka-kovrov",
+      "title": "Чищення килимів"
+    },
+    {
+      "link": "/service/dopolnitelnye-uslugi",
+      "title": "Додаткові послуги"
+    }
+  ],
+
+  "footer-info1": "Звільняємо від зайвих турбот.",
+  "footer-info2": "Забудьте про прання, чистку, сушіння та прасування!",
+  "footer-info3": "Доставка по Харкову та області.",
+
+  "footer-name": "Пральня \"Аквалайд\"",
+
+  "footer-menu": "Меню",
+  "footer-contact": "Контакти",
+  "footer-time": "ПН - СБ з 8:00 до 18:00 год",
+  "footer-addres": "м.Харків",
+
+  "footer-menuArr": [
+    { "title": "Головна", "link": "/" },
+    { "title": "Послуги", "link": "/service" },
+    { "title": "Акції", "link": "/promotions" },
+    { "title": "Корпоративним кліентам", "link": "/corporativnymclientam" },
+    { "title": "Оплата i доставка", "link": "/oplatadostavka" },
+    { "title": "Контакти", "link": "/contact" }
+  ]
+}

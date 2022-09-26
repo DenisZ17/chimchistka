@@ -1,31 +1,26 @@
-import serv1 from "../../static/serv1textile.png";
-import serv2 from "../../static/serv2.png";
-import serv3 from "../../static/serv3leather.png";
-import serv4 from "../../static/serv4home-txt.png";
-
 export const homeServiceCat = [
   {
     link: "/service/tekstil-i-trikotazh",
-    img: serv1,
+    img: "../../static/serv1textile.png",
     title: "Текстиль и трикотаж",
     price: "от 385 руб.",
   },
   {
     link: "/service/mexovye-izdeliya",
-    img: serv2,
+    img: "../../static/serv2.png",
     title: "Меховые изделия",
     price: "от 990 руб.",
   },
   {
     link: "/service/kozha-i-zamsha",
-    img: serv3,
+    img: "../../static/serv3leather.png",
     title: "Кожа и замша",
     price: "от 1870 руб.",
   },
 
   {
     link: "/service/domashnij-tekstil",
-    img: serv4,
+    img: "../../static/serv4home-txt.png",
     title: "Домашний текстиль",
     price: "от 990 руб.",
   },

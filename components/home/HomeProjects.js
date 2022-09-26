@@ -11,6 +11,7 @@ import Slider from "react-slick";
 import { v4 as uuidv4, v4 } from "uuid";
 import Modal from "../Modal";
 import divider from "../../static/bg-title-line.png";
+import useTranslation from "next-translate/useTranslation";
 
 function ArrowPrev(props) {
   const { onClick } = props;
@@ -43,7 +44,7 @@ function HomeProjects() {
   const [modal4, setModal4] = useState(false);
   const [modal5, setModal5] = useState(false);
   const [modal6, setModal6] = useState(false);
-
+  let { t } = useTranslation();
   const settings = {
     infinite: true,
     // autoplay: true,
@@ -76,7 +77,7 @@ function HomeProjects() {
   return (
     <div className="home__projects">
       <div className="home__projects-container">
-        <h2 className="home__projects-h2">Наши работы</h2>
+        <h2 className="home__projects-h2">{t("home:home-project")}</h2>
         <div className="home__projects-imgdivider">
           <Image src={divider} width={122} height={12} />
         </div>

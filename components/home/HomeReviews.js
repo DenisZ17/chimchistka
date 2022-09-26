@@ -8,6 +8,7 @@ import { v4 as uuidv4, v4 } from "uuid";
 import Modal from "../Modal";
 import { useState } from "react";
 import ReviewsForm from "../forms/ReviewsForm";
+import useTranslation from "next-translate/useTranslation";
 function ArrowPrev(props) {
   const { onClick } = props;
   return (
@@ -33,6 +34,8 @@ function ArrowNext(props) {
   );
 }
 function HomeReviews() {
+  let { t } = useTranslation();
+  const homeRev = t("home:home-reviews", {}, { returnObjects: true });
   const [modal, setModal] = useState(false);
   const settings = {
     infinite: true,
@@ -65,13 +68,13 @@ function HomeReviews() {
   return (
     <div className="home__reviews">
       <div className="home__reviews-container">
-        <h2 className="home__reviews-h2">Отзывы о нас</h2>
+        <h2 className="home__reviews-h2">{t("home:home-reviewsTitle")}</h2>
         <div className="home__reviews-imgdivider">
           <Image src={divider} width={122} height={12} />
         </div>
 
         <Slider {...settings} className="home__reviews-slider">
-          {homeReviews.map((item) => (
+          {homeRev.map((item) => (
             <div className="home__reviews-item">
               <div className="home__reviews-text">{item.text}</div>
               <div className="home__reviews-avatar">
@@ -86,7 +89,7 @@ function HomeReviews() {
         </Slider>
         <div className="home__reviews-wrapbtn">
           <button onClick={() => setModal(true)} className="home__reviews-btn">
-            Отправить отзыв
+            {t("home:home-reviewsBtn")}
           </button>
           <Modal active={modal} setActive={setModal}>
             <button

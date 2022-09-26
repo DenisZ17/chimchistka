@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { useSelector } from "react-redux";
 
 function Header_cart() {
   const [count, setCount] = useState(2);
+  const counter = useSelector((state) => state.counter.value);
   return (
     <div className="header__cart">
-      <a href="#" className="header__cart-link" href="">
+      <a href="#" className="header__cart-link">
         <svg
           className="header__cart-cart"
           fill="currentColor"
@@ -16,10 +18,10 @@ function Header_cart() {
       </a>
       <div
         className={
-          count > 0 ? "header__cart-counter red" : "header__cart-counter blue"
+          counter > 0 ? "header__cart-counter red" : "header__cart-counter blue"
         }
       >
-        {count}
+        {counter}
       </div>
     </div>
   );

@@ -1,0 +1,209 @@
+{
+  "home-sliderPunkt": "Reception points ",
+  "home-sliderCharkov": " in Kharkov",
+  "home-sliderTitle": "Dry cleaning of things with home delivery",
+  "home-sliderDescr": "We pick up, clean and deliver back! 100% disinfection, contactless order transfer and cashless payment.",
+  "home-sliderExdescr": "If you want to pick up or hand over things - call us, we will come!",
+  "home-sliderBtn": "Order delivery",
+  "home-sliderBtnDescr": "Free for orders over 2000 UAH",
+  "home-sliderBtnOrder": "Calculate order",
+  "home-sliderBtnOrdDescr": "It will take 5-10 minutes",
+  "home-service": "Dry cleaning services",
+  "home-serviceCat": [
+    {
+      "link": "/service/tekstil-i-trikotazh",
+      "img": "/./../static/serv1textile.png",
+      "title": "Textile and knitwear",
+      "price": "от 385 руб."
+    },
+    {
+      "link": "/service/mexovye-izdeliya",
+      "img": "/./../static/serv2.png",
+      "title": "Fur",
+      "price": "от 990 руб."
+    },
+    {
+      "link": "/service/kozha-i-zamsha",
+      "img": "/./../static/serv3leather.png",
+      "title": "Leather and suede",
+      "price": "от 1870 руб."
+    },
+    {
+      "link": "/service/domashnij-tekstil",
+      "img": "/./../static/serv4home-txt.png",
+      "title": "Home textiles",
+      "price": "от 990 руб."
+    }
+  ],
+  "home-serviceSubCat": [
+    {
+      "link": "/service/kostyumnaya-gruppa",
+      "img": "/./../static/serv5suit.png",
+      "title": "Costume group",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/rubashki-i-bluzy",
+      "img": "/./../static/serv6shirt.png",
+      "title": "Shirts and blouses",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/dzhinsy-bryuki-i-shorty",
+      "img": "/./../static/serv7pants.png",
+      "title": "Jeans, trousers, shorts",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/futbolki-majki-i-topy",
+      "img": "/./../static/serv8tshirt.png",
+      "title": "T-shirts, tops",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/platya-i-yubki",
+      "img": "/./../static/serv9dress.png",
+      "title": "Dresses and skirts",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/svitera-i-kofty",
+      "img": "/./../static/serv10kofty.png",
+      "title": "Sweaters",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/svadebnye-platya",
+      "img": "/./../static/serv11wedding.png",
+      "title": "Wedding Dresses",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/veshhi-ot-kutyur",
+      "img": "/./../static/serv12couture.png",
+      "title": "Things haute couture",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/puhoviki",
+      "img": "/./../static/serv13downjacket.png",
+      "title": "Down jackets",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/palto-i-kurtki",
+      "img": "/./../static/serv14coat.png",
+      "title": "Coats & Jackets",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/dublenki",
+      "img": "/./../static/serv15sheepskin.png",
+      "title": "Sheepskin coats",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/obuv-i-sumki",
+      "img": "/./../static/serv16handbag.png",
+      "title": "Shoes and bags",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/golovnye-ubory-i-aksessuary",
+      "img": "/./../static/serv17hat.png",
+      "title": "Hats and accessories",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/detskaya-odezhda",
+      "img": "/./../static/serv18deti_od.png",
+      "title": "Baby clothes",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/domashnyaya-odezhda",
+      "img": "/./../static/serv19home-clothes.png",
+      "title": "Home clothes",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/sportivnaya-odezhda",
+      "img": "/./../static/serv20sportswear.png",
+      "title": "Sportswear",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/specodezhda",
+      "img": "/./../static/serv21overalls.png",
+      "title": "Overalls",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/chistka-kovrov",
+      "img": "/./../static/serv22carpet.png",
+      "title": "Carpet cleaning",
+      "price": "от 777 руб."
+    },
+    {
+      "link": "/service/dopolnitelnye-uslugi",
+      "img": "/./../static/serv24Dop.png",
+      "title": "Additional services",
+      "price": "от 777 руб."
+    }
+  ],
+  "home-phoneTitle": "Quick order",
+  "home-phoneDescr": "Leave a request* right now and we will call you back within an hour to clarify the details and answer all your questions!",
+  "home-phoneBtn": "I WANT TO WASH",
+  "home-textTitle": "Where can I cheaply wash clothes in Kharkov?",
+  "home-textDescr": "Are you interested in the address of an inexpensive, but high-quality washer? Aqualide is perhaps the cheapest aqua-laundry in Kharkiv, and there is no need to look for addresses of collection points and choose the nearest one with a suitable work schedule: we will take your order at home or in your office! We will come, pick up, wash, dry and deliver back in 48 hours. Aqualaid Laundry in Kharkiv carries out not only washing clothes, but also washing home textiles and bedding - pillows, blankets and blankets. For large volumes of clothes or washing on an ongoing basis, special programs have been developed that allow you to receive additional discounts and more favorable conditions. The cost of all services can be found in the «Prices» section. If you are wondering: “Is it possible to find an inexpensive professional laundry in Kharkiv near me?” Contact us! Laundry Aqualide works throughout Kharkiv. We are confident in the quality of the services provided and always try to meet the expectations of the client, so we work without prepayment. Payment is made only when you receive clean items. We will be glad to see you among our regular customers!",
+  "home-stageTitle": "HOW IT WORKS?",
+  "home-stageDescr1": "YOU LEAVE A REQUEST* BY PHONE OR THE SITE",
+  "home-stageDescr2": "LAUNDRY PICK UP AT A CONVENIENT TIME",
+  "home-stageDescr3": "YOU GET PURE THINGS AND ENJOY LIFE",
+  "home-priceTitle": "Dry cleaning - prices",
+  "home-priceDescr1": "Dry cleaning, whose prices in Moscow vary widely, is a service that cannot be excluded from your life, even if you manage with affordable clothes, and even more so if you prefer good-quality new clothes from brands to things designed for short wear.",
+  "home-priceDescr2": "Dry-cleaning of clothes extends the period of use without loss of presentation of business suits, office outfits made of knitwear, elite overalls, products made from natural and artificial fur and leather, natural silk, complex synthetic fabrics.",
+  "home-priceDescr3": "One of the advantages of dry cleaning over home washing is the preservation of the shape of the product, which has been treated to remove stains and a layer of street and industrial dust that has eaten into the fibers, as well as a gray tint formed under continuous atmospheric exposure.",
+  "home-emailTitle": "Beneficial mailing",
+  "home-emailDescr": "Sign up for our newsletter to get your laundry done cheaply and profitably.",
+  "home-emailBtn": "SUBSCRIBE",
+  "home-emailPlaceh": "Your email",
+  "home-project": "Our projects",
+
+  "home-reviewsTitle": "Reviews about us",
+  "home-reviews": [
+    {
+      "text": "Good night! Thank you very much. The result is very satisfied. Friendly service, they came and picked it up. Two light down jackets, and a men's jacket. (as new!) Everything is clean, fresh! Couriers are nice. Thanks a lot. I am very pleased. For one day. Thanks",
+      "img": "/./../static/icon-woman.png",
+      "name": "Valentina Kuleba",
+      "date": "03.08.2020"
+    },
+    {
+      "text": "Hello everybody! This is something not real, it's just super !!! They did the impossible! So I have a white down jacket, after a robbery attack on me, the down jacket was covered in blood (THE VIEW WAS HORRIBLE). The next day after the incident, he took the down jacket ...",
+      "img": "/./../static/icon-man.png",
+      "name": "Maxim Deneyko",
+      "date": "15.01.2021"
+    },
+    {
+      "text": "This is my first time using your services and I want to say a BIG THANK YOU!!! All three down jackets are like new!!! the fluff is distributed evenly everywhere and whipped up well (when they bought it was not even like that))))) Happy New Year to everyone !!! All the best!!!",
+      "img": "/./../static/icon-woman.png",
+      "name": "Natalya Gerchik",
+      "date": "21.12.2021"
+    },
+    {
+      "text": "Cool!!! They handed over a down jacket with a «cheburashka on the collar» - they returned it like with a polar fox)))) the pillows were washed and dried perfectly! all this for very nice money and even with delivery to the door of the apartment! Thanks!! Now only to you",
+      "img": "/./../static/icon-woman.png",
+      "name": "Irina Kirchenko",
+      "date": "30.05.2021"
+    },
+    {
+      "text": "I use your services for the second time. Very satisfied. Washed duvets and pillows for the first time. Everything is great. The second time I washed down jackets. Very satisfied, everything looks great. Thank you very much. I will definitely contact again!!!",
+      "img": "/./../static/icon-woman.png",
+      "name": "Anna Goreeva",
+      "date": "17.09.2020"
+    }
+  ],
+  "home-reviewsBtn": "Send a review",
+
+  "home-sendReview": "Send a review"
+}

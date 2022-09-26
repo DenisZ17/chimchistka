@@ -2,9 +2,9 @@ import Link from "next/link";
 import Script from "next/script";
 import { useState, useEffect } from "react";
 import Header_cart from "./Header_cart";
-import { menuSubList } from "../../static/data/menuSubList";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
-import Image from "next/image";
+
+import useTranslation from "next-translate/useTranslation";
 
 export default function Header_bottom() {
   const [click, setClick] = useState(false);
@@ -19,6 +19,10 @@ export default function Header_bottom() {
       return setScroll(true);
     } else if (scroll < h_header) setScroll(false);
   };
+
+  let { t } = useTranslation();
+
+  const footMenu = t("common:menu-sublist", {}, { returnObjects: true });
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
   });
@@ -38,7 +42,7 @@ export default function Header_bottom() {
               <ul className="menu__list">
                 <li>
                   <Link href="/">
-                    <a className="menu__link">Главная</a>
+                    <a className="menu__link">{t("common:menu-home")}</a>
                   </Link>
                 </li>
                 <li
@@ -47,7 +51,9 @@ export default function Header_bottom() {
                   className={arrowClick ? "_active" : " "}
                 >
                   <Link href="/service">
-                    <a className="menu__link addpadding">Услуги</a>
+                    <a className="menu__link addpadding">
+                      {t("common:menu-service")}
+                    </a>
                   </Link>
 
                   <span className="menu__arrow">
@@ -59,7 +65,7 @@ export default function Header_bottom() {
                   </span>
 
                   <ul className="sub-menu__list grid grid-cols-3 gap-3">
-                    {menuSubList.map((item, index) => (
+                    {footMenu.map((item, index) => (
                       <li key={index}>
                         <Link href={item.link}>
                           <a className="sub-menu__link" href="">
@@ -73,28 +79,28 @@ export default function Header_bottom() {
                 <li>
                   <Link href="/promotions">
                     <a className="menu__link" href="">
-                      Акции
+                      {t("common:menu-promoution")}
                     </a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/corporativnymclientam">
                     <a className="menu__link" href="">
-                      Корпоративным клиентам
+                      {t("common:menu-corporation")}
                     </a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/oplatadostavka">
                     <a className="menu__link" href="">
-                      Оплата и доставка
+                      {t("common:menu-payment")}
                     </a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/contact">
                     <a className="menu__link" href="">
-                      Контакты
+                      {t("common:menu-contact")}
                     </a>
                   </Link>
                 </li>

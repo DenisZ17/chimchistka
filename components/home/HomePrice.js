@@ -1,32 +1,17 @@
+import useTranslation from "next-translate/useTranslation";
 import React from "react";
 
 function HomePrice() {
+  const { t } = useTranslation();
   return (
     <section className="home__price">
       <div className="container">
-        <h2 className="home__price-h2">Химчистка — цены</h2>
-        <p className="home__price-descr">
-          Химчистка, цены на услуги которой в Москве варьируются в широком
-          диапазоне, — сервис, который нельзя исключать из своей жизни, даже
-          если вы обходитесь демократичной одеждой, и тем более — если добротные
-          обновки от брендов предпочитаете вещам, рассчитанным на
-          непродолжительную носку.
-        </p>
+        <h2 className="home__price-h2">{t("home:home-priceTitle")}</h2>
+        <p className="home__price-descr">{t("home:home-priceDescr1")}</p>
         <br />
-        <p className="home__price-descr">
-          Химчистка одежды продлевает срок использования без потери товарного
-          вида деловых костюмов, офисных нарядов из трикотажа, элитной
-          спецодежды, изделий из натуральных и искусственных меха и кожи,
-          натурального шелка, сложных синтетических тканей.
-        </p>
+        <p className="home__price-descr">{t("home:home-priceDescr2")}</p>
         <br />
-        <p className="home__price-descr">
-          Одно из преимуществ услуги химчистки перед домашней стиркой —
-          сохранность формы изделия, прошедшего обработку с удалением пятен и
-          слоя въевшейся в волокна уличной и производственной пыли, а также
-          серого оттенка, образующегося под непрерывным атмосферным
-          воздействием.
-        </p>
+        <p className="home__price-descr">{t("home:home-priceDescr3")}</p>
       </div>
     </section>
   );

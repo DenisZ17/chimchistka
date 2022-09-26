@@ -1,0 +1,128 @@
+{
+  "language-name-en": "en",
+  "header-top-delivery": "Delivery in Kharkov and the region",
+  "header-top-time": "Mon - Sat from 8:00 to 18:00",
+  "menu-home": "home",
+  "menu-service": "service",
+  "menu-promoution": "promoutions",
+  "menu-corporation": "corporations",
+  "menu-payment": "payment and delivery",
+  "menu-contact": "contact",
+
+  "menu-sublist": [
+    {
+      "link": "/service/tekstil-i-trikotazh",
+      "title": "Textile and knitwear"
+    },
+    {
+      "link": "/service/mexovye-izdeliya",
+      "title": "Fur"
+    },
+    {
+      "link": "/service/kozha-i-zamsha",
+      "title": "Leather and suede"
+    },
+
+    {
+      "link": "/service/domashnij-tekstil",
+      "title": "Home textiles"
+    },
+    {
+      "link": "/service/kostyumnaya-gruppa",
+      "title": "Costume group"
+    },
+
+    {
+      "link": "/service/rubashki-i-bluzy",
+      "title": "Shirts and blouses"
+    },
+    {
+      "link": "/service/dzhinsy-bryuki-i-shorty",
+      "title": "Jeans, trousers, shorts"
+    },
+    {
+      "link": "/service/futbolki-majki-i-topy",
+      "title": "T-shirts, tops"
+    },
+    {
+      "link": "/service/platya-i-yubki",
+      "title": "Dresses and skirts"
+    },
+    {
+      "link": "/service/svitera-i-kofty",
+      "title": "Sweaters"
+    },
+    {
+      "link": "/service/svadebnye-platya",
+      "title": "Wedding Dresses"
+    },
+    {
+      "link": "/service/veshhi-ot-kutyur",
+      "title": "Things haute couture"
+    },
+    {
+      "link": "/service/puhoviki",
+      "title": "Down jackets"
+    },
+    {
+      "link": "/service/palto-i-kurtki",
+      "title": "Coats & Jackets"
+    },
+    {
+      "link": "/service/dublenki",
+      "title": "Sheepskin coats"
+    },
+    {
+      "link": "/service/obuv-i-sumki",
+      "title": "Shoes and bags"
+    },
+    {
+      "link": "/service/golovnye-ubory-i-aksessuary",
+      "title": "Hats and accessories"
+    },
+    {
+      "link": "/service/detskaya-odezhda",
+      "title": "Baby clothes"
+    },
+    {
+      "link": "/service/domashnyaya-odezhda",
+      "title": "Home clothes"
+    },
+    {
+      "link": "/service/sportivnaya-odezhda",
+      "title": "Sportswear"
+    },
+    {
+      "link": "/service/specodezhda",
+      "title": "Overalls"
+    },
+    {
+      "link": "/service/chistka-kovrov",
+      "title": "Carpet cleaning"
+    },
+    {
+      "link": "/service/dopolnitelnye-uslugi",
+      "title": "Additional services"
+    }
+  ],
+
+  "footer-info1": "Free from unnecessary worries.",
+  "footer-info2": "Forget about washing, cleaning, drying and ironing!",
+  "footer-info3": "Delivery across Kharkov and area.",
+
+  "footer-name": "Laundry \"Aqualide\"",
+
+  "footer-menu": "Menu",
+  "footer-contact": "Contact",
+  "footer-time": "Mon - Sat from 8:00 to 18:00",
+  "footer-addres": "Kharkiv city",
+
+  "footer-menuArr": [
+    { "title": "Home", "link": "/" },
+    { "title": "Service", "link": "/service" },
+    { "title": "Рromoutions", "link": "/promotions" },
+    { "title": "Сorporations", "link": "/corporativnymclientam" },
+    { "title": "Payment and delivery", "link": "/oplatadostavka" },
+    { "title": "Contact", "link": "/contact" }
+  ]
+}
