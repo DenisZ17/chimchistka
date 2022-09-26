@@ -3,7 +3,6 @@ import { HiOutlineChevronLeft, HiOutlineChevronRight } from "react-icons/hi";
 
 import divider from "../../static/bg-title-line.png";
 import Slider from "react-slick";
-import homeReviews from "../../static/data/homeReviews";
 import { v4 as uuidv4, v4 } from "uuid";
 import Modal from "../Modal";
 import { useState } from "react";

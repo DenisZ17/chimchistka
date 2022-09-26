@@ -5,6 +5,9 @@ import Phone_dropdown from "./Phone_dropdown";
 import { FaClock, FaEnvelope, FaTruck } from "react-icons/fa";
 import setLanguage from "next-translate/setLanguage";
 import useTranslation from "next-translate/useTranslation";
+import flagRu from "/static/flag-ru.png";
+import flagEn from "/static/flag-en.png";
+import flagUa from "/static/flag-uk.png";
 
 export default function Header_top() {
   let { t } = useTranslation();
@@ -39,32 +42,17 @@ export default function Header_top() {
           </div>
           <div className="header__multi-lingual">
             <button onClick={async () => await setLanguage("uk")}>
-              <Image
-                src="/../static/flag-uk.png"
-                width={20}
-                height={20}
-                alt="flag uk"
-              />
+              <Image src={flagUa} width={20} height={20} alt="flag uk" />
             </button>
             <button
               className="mx-3"
               onClick={async () => await setLanguage("en")}
             >
-              <Image
-                src="/../static/flag-en.png"
-                width={20}
-                height={20}
-                alt="flag en"
-              />
+              <Image src={flagEn} width={20} height={20} alt="flag en" />
             </button>
 
             <button onClick={async () => await setLanguage("ru")}>
-              <Image
-                src="/../static/flag-ru.png"
-                width={20}
-                height={20}
-                alt="flag ru"
-              />
+              <Image src={flagRu} width={20} height={20} alt="flag ru" />
             </button>
           </div>
         </div>

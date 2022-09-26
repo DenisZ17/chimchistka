@@ -12,25 +12,25 @@
   "home-serviceCat": [
     {
       "link": "/service/tekstil-i-trikotazh",
-      "img": "/./../static/serv1textile.png",
+      "img": "/static/serv1textile.png",
       "title": "Текстиль та трикотаж",
       "price": "от 385 руб."
     },
     {
       "link": "/service/mexovye-izdeliya",
-      "img": "/./../static/serv2.png",
+      "img": "/static/serv2.png",
       "title": "Хутряні вироби",
       "price": "от 990 руб."
     },
     {
       "link": "/service/kozha-i-zamsha",
-      "img": "/./../static/serv3leather.png",
+      "img": "/static/serv3leather.png",
       "title": "Шкіра та замша",
       "price": "от 1870 руб."
     },
     {
       "link": "/service/domashnij-tekstil",
-      "img": "/./../static/serv4home-txt.png",
+      "img": "/static/serv4home-txt.png",
       "title": "Домашній текстиль",
       "price": "от 990 руб."
     }
@@ -38,115 +38,115 @@
   "home-serviceSubCat": [
     {
       "link": "/service/kostyumnaya-gruppa",
-      "img": "/./../static/serv5suit.png",
+      "img": "/static/serv5suit.png",
       "title": "Костюмна група",
       "price": "от 777 руб."
     },
     {
       "link": "/service/rubashki-i-bluzy",
-      "img": "/./../static/serv6shirt.png",
+      "img": "/static/serv6shirt.png",
       "title": "Сорочки та блузи",
       "price": "от 777 руб."
     },
     {
       "link": "/service/dzhinsy-bryuki-i-shorty",
-      "img": "/./../static/serv7pants.png",
+      "img": "/static/serv7pants.png",
       "title": "Джинси, штани, шорти",
       "price": "от 777 руб."
     },
     {
       "link": "/service/futbolki-majki-i-topy",
-      "img": "/./../static/serv8tshirt.png",
+      "img": "/static/serv8tshirt.png",
       "title": "Футболки, майки, топи",
       "price": "от 777 руб."
     },
     {
       "link": "/service/platya-i-yubki",
-      "img": "/./../static/serv9dress.png",
+      "img": "/static/serv9dress.png",
       "title": "Сукні та спідниці",
       "price": "от 777 руб."
     },
     {
       "link": "/service/svitera-i-kofty",
-      "img": "/./../static/serv10kofty.png",
+      "img": "/static/serv10kofty.png",
       "title": "Светри та кофти",
       "price": "от 777 руб."
     },
     {
       "link": "/service/svadebnye-platya",
-      "img": "/./../static/serv11wedding.png",
+      "img": "/static/serv11wedding.png",
       "title": "Весільні сукні",
       "price": "от 777 руб."
     },
     {
       "link": "/service/veshhi-ot-kutyur",
-      "img": "/./../static/serv12couture.png",
+      "img": "/static/serv12couture.png",
       "title": "Речі від «кутюр»",
       "price": "от 777 руб."
     },
     {
       "link": "/service/puhoviki",
-      "img": "/./../static/serv13downjacket.png",
+      "img": "/static/serv13downjacket.png",
       "title": "Пуховики",
       "price": "от 777 руб."
     },
     {
       "link": "/service/palto-i-kurtki",
-      "img": "/./../static/serv14coat.png",
+      "img": "/static/serv14coat.png",
       "title": "Пальто та куртки",
       "price": "от 777 руб."
     },
     {
       "link": "/service/dublenki",
-      "img": "/./../static/serv15sheepskin.png",
+      "img": "/static/serv15sheepskin.png",
       "title": "Дублянки",
       "price": "от 777 руб."
     },
     {
       "link": "/service/obuv-i-sumki",
-      "img": "/./../static/serv16handbag.png",
+      "img": "/static/serv16handbag.png",
       "title": "Взуття та сумки",
       "price": "от 777 руб."
     },
     {
       "link": "/service/golovnye-ubory-i-aksessuary",
-      "img": "/./../static/serv17hat.png",
+      "img": "/static/serv17hat.png",
       "title": "Шапки та аксесуари",
       "price": "от 777 руб."
     },
     {
       "link": "/service/detskaya-odezhda",
-      "img": "/./../static/serv18deti_od.png",
+      "img": "/static/serv18deti_od.png",
       "title": "Дитячий одяг",
       "price": "от 777 руб."
     },
     {
       "link": "/service/domashnyaya-odezhda",
-      "img": "/./../static/serv19home-clothes.png",
+      "img": "/static/serv19home-clothes.png",
       "title": "Домашній одяг",
       "price": "от 777 руб."
     },
     {
       "link": "/service/sportivnaya-odezhda",
-      "img": "/./../static/serv20sportswear.png",
+      "img": "/static/serv20sportswear.png",
       "title": "Спортивний одяг",
       "price": "от 777 руб."
     },
     {
       "link": "/service/specodezhda",
-      "img": "/./../static/serv21overalls.png",
+      "img": "/static/serv21overalls.png",
       "title": "Спецодяг",
       "price": "от 777 руб."
     },
     {
       "link": "/service/chistka-kovrov",
-      "img": "/./../static/serv22carpet.png",
+      "img": "/static/serv22carpet.png",
       "title": "Чищення килимів",
       "price": "от 777 руб."
     },
     {
       "link": "/service/dopolnitelnye-uslugi",
-      "img": "/./../static/serv24Dop.png",
+      "img": "/static/serv24Dop.png",
       "title": "Додаткові послуги",
       "price": "от 777 руб."
     }
@@ -175,31 +175,31 @@
   "home-reviews": [
     {
       "text": "Доброї ночі! Спасибі вам велике. Результатом дуже задоволена. Ввічливе обслуговування, приїхали забрали та привезли. Два світлі пуховики, і чоловічу куртку. (як новинки!) Все чисте, свіже! Кур'єри приємні. Велике спасибі. Я дуже задоволена. За один день. Дякую",
-      "img": "/./../static/icon-woman.png",
+      "img": "/static/icon-woman.png",
       "name": "Валентина Куліба",
       "date": "03.08.2020"
     },
     {
       "text": "Вітаю всіх! Це щось не реальне, це просто супер !!! Вони зробили неможливе! Значить у мене білий пуховик, після розбійного нападу на мене, пуховик опинився весь у крові (ВИД БУВ ЖАХЛИВИЙ). Наступного дня після пригоди відніс пухові...",
-      "img": "/./../static/icon-man.png",
+      "img": "/static/icon-man.png",
       "name": "Максим Денейко",
       "date": "15.01.2021"
     },
     {
       "text": "Вперше скористалася вашими послугами і хочу сказати ВЕЛИКИЙ ДЯКУЮ!!!! Всі три пуховики як нові! пух розподілений скрізь рівномірно і збитий добре( коли купували навіть не так було))))) Усіх з НАСТУПНИМ НОВИМ РОКОМ !!! Всіх благ!!!",
-      "img": "/./../static/icon-woman.png",
+      "img": "/static/icon-woman.png",
       "name": "Наталія Герчик",
       "date": "21.12.2021"
     },
     {
       "text": "Круто! Здавали пуховик з «чебурашкою на комірі» - повернули як з песцем)))) подушки випрали і висушили на відмінно! все це за дуже приємні гроші та ще й із доставкою до дверей квартири! Дякую!! Тепер тільки до Ва",
-      "img": "/./../static/icon-woman.png",
+      "img": "/static/icon-woman.png",
       "name": "Ірина Кірченко",
       "date": "30.05.2021"
     },
     {
       "text": "Користуюсь Вашими послугами вдруге. Дуже задоволена. Перший раз прала ковдри та подушки. Все відмінно. Вдруге прала пуховики. Дуже задоволена, все чудово випрано. Велике вам спасибі. Обов'язково звертатимуся ще !!!",
-      "img": "/./../static/icon-woman.png",
+      "img": "/static/icon-woman.png",
       "name": "Ганна Горєєва",
       "date": "17.09.2020"
     }

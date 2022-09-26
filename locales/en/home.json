@@ -12,25 +12,25 @@
   "home-serviceCat": [
     {
       "link": "/service/tekstil-i-trikotazh",
-      "img": "/./../static/serv1textile.png",
+      "img": "/static/serv1textile.png",
       "title": "Textile and knitwear",
       "price": "от 385 руб."
     },
     {
       "link": "/service/mexovye-izdeliya",
-      "img": "/./../static/serv2.png",
+      "img": "/static/serv2.png",
       "title": "Fur",
       "price": "от 990 руб."
     },
     {
       "link": "/service/kozha-i-zamsha",
-      "img": "/./../static/serv3leather.png",
+      "img": "/static/serv3leather.png",
       "title": "Leather and suede",
       "price": "от 1870 руб."
     },
     {
       "link": "/service/domashnij-tekstil",
-      "img": "/./../static/serv4home-txt.png",
+      "img": "/static/serv4home-txt.png",
       "title": "Home textiles",
       "price": "от 990 руб."
     }
@@ -38,115 +38,115 @@
   "home-serviceSubCat": [
     {
       "link": "/service/kostyumnaya-gruppa",
-      "img": "/./../static/serv5suit.png",
+      "img": "/static/serv5suit.png",
       "title": "Costume group",
       "price": "от 777 руб."
     },
     {
       "link": "/service/rubashki-i-bluzy",
-      "img": "/./../static/serv6shirt.png",
+      "img": "/static/serv6shirt.png",
       "title": "Shirts and blouses",
       "price": "от 777 руб."
     },
     {
       "link": "/service/dzhinsy-bryuki-i-shorty",
-      "img": "/./../static/serv7pants.png",
+      "img": "/static/serv7pants.png",
       "title": "Jeans, trousers, shorts",
       "price": "от 777 руб."
     },
     {
       "link": "/service/futbolki-majki-i-topy",
-      "img": "/./../static/serv8tshirt.png",
+      "img": "/static/serv8tshirt.png",
       "title": "T-shirts, tops",
       "price": "от 777 руб."
     },
     {
       "link": "/service/platya-i-yubki",
-      "img": "/./../static/serv9dress.png",
+      "img": "/static/serv9dress.png",
       "title": "Dresses and skirts",
       "price": "от 777 руб."
     },
     {
       "link": "/service/svitera-i-kofty",
-      "img": "/./../static/serv10kofty.png",
+      "img": "/static/serv10kofty.png",
       "title": "Sweaters",
       "price": "от 777 руб."
     },
     {
       "link": "/service/svadebnye-platya",
-      "img": "/./../static/serv11wedding.png",
+      "img": "/static/serv11wedding.png",
       "title": "Wedding Dresses",
       "price": "от 777 руб."
     },
     {
       "link": "/service/veshhi-ot-kutyur",
-      "img": "/./../static/serv12couture.png",
+      "img": "/static/serv12couture.png",
       "title": "Things haute couture",
       "price": "от 777 руб."
     },
     {
       "link": "/service/puhoviki",
-      "img": "/./../static/serv13downjacket.png",
+      "img": "/static/serv13downjacket.png",
       "title": "Down jackets",
       "price": "от 777 руб."
     },
     {
       "link": "/service/palto-i-kurtki",
-      "img": "/./../static/serv14coat.png",
+      "img": "/static/serv14coat.png",
       "title": "Coats & Jackets",
       "price": "от 777 руб."
     },
     {
       "link": "/service/dublenki",
-      "img": "/./../static/serv15sheepskin.png",
+      "img": "/static/serv15sheepskin.png",
       "title": "Sheepskin coats",
       "price": "от 777 руб."
     },
     {
       "link": "/service/obuv-i-sumki",
-      "img": "/./../static/serv16handbag.png",
+      "img": "/static/serv16handbag.png",
       "title": "Shoes and bags",
       "price": "от 777 руб."
     },
     {
       "link": "/service/golovnye-ubory-i-aksessuary",
-      "img": "/./../static/serv17hat.png",
+      "img": "/static/serv17hat.png",
       "title": "Hats and accessories",
       "price": "от 777 руб."
     },
     {
       "link": "/service/detskaya-odezhda",
-      "img": "/./../static/serv18deti_od.png",
+      "img": "/static/serv18deti_od.png",
       "title": "Baby clothes",
       "price": "от 777 руб."
     },
     {
       "link": "/service/domashnyaya-odezhda",
-      "img": "/./../static/serv19home-clothes.png",
+      "img": "/static/serv19home-clothes.png",
       "title": "Home clothes",
       "price": "от 777 руб."
     },
     {
       "link": "/service/sportivnaya-odezhda",
-      "img": "/./../static/serv20sportswear.png",
+      "img": "/static/serv20sportswear.png",
       "title": "Sportswear",
       "price": "от 777 руб."
     },
     {
       "link": "/service/specodezhda",
-      "img": "/./../static/serv21overalls.png",
+      "img": "/static/serv21overalls.png",
       "title": "Overalls",
       "price": "от 777 руб."
     },
     {
       "link": "/service/chistka-kovrov",
-      "img": "/./../static/serv22carpet.png",
+      "img": "/static/serv22carpet.png",
       "title": "Carpet cleaning",
       "price": "от 777 руб."
     },
     {
       "link": "/service/dopolnitelnye-uslugi",
-      "img": "/./../static/serv24Dop.png",
+      "img": "/static/serv24Dop.png",
       "title": "Additional services",
       "price": "от 777 руб."
     }
@@ -174,31 +174,31 @@
   "home-reviews": [
     {
       "text": "Good night! Thank you very much. The result is very satisfied. Friendly service, they came and picked it up. Two light down jackets, and a men's jacket. (as new!) Everything is clean, fresh! Couriers are nice. Thanks a lot. I am very pleased. For one day. Thanks",
-      "img": "/./../static/icon-woman.png",
+      "img": "/static/icon-woman.png",
       "name": "Valentina Kuleba",
       "date": "03.08.2020"
     },
     {
       "text": "Hello everybody! This is something not real, it's just super !!! They did the impossible! So I have a white down jacket, after a robbery attack on me, the down jacket was covered in blood (THE VIEW WAS HORRIBLE). The next day after the incident, he took the down jacket ...",
-      "img": "/./../static/icon-man.png",
+      "img": "/static/icon-man.png",
       "name": "Maxim Deneyko",
       "date": "15.01.2021"
     },
     {
       "text": "This is my first time using your services and I want to say a BIG THANK YOU!!! All three down jackets are like new!!! the fluff is distributed evenly everywhere and whipped up well (when they bought it was not even like that))))) Happy New Year to everyone !!! All the best!!!",
-      "img": "/./../static/icon-woman.png",
+      "img": "/static/icon-woman.png",
       "name": "Natalya Gerchik",
       "date": "21.12.2021"
     },
     {
       "text": "Cool!!! They handed over a down jacket with a «cheburashka on the collar» - they returned it like with a polar fox)))) the pillows were washed and dried perfectly! all this for very nice money and even with delivery to the door of the apartment! Thanks!! Now only to you",
-      "img": "/./../static/icon-woman.png",
+      "img": "/static/icon-woman.png",
       "name": "Irina Kirchenko",
       "date": "30.05.2021"
     },
     {
       "text": "I use your services for the second time. Very satisfied. Washed duvets and pillows for the first time. Everything is great. The second time I washed down jackets. Very satisfied, everything looks great. Thank you very much. I will definitely contact again!!!",
-      "img": "/./../static/icon-woman.png",
+      "img": "/static/icon-woman.png",
       "name": "Anna Goreeva",
       "date": "17.09.2020"
     }
